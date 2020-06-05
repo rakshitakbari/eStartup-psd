@@ -1,0 +1,42 @@
+#get-started{
+    padding: 60px 16px;
+    .feature-block{
+        background: $white none repeat scroll 0 0;
+        padding: 30px 20px;
+        transition: all 0.5s ease-in-out 0s;
+        &:hover{
+            box-shadow: 0 0 35px rgba(0,0,0,0.1);
+            transition: all 0.5s ease-in-out 0s;
+        }
+        img{
+            height: 60px;
+            margin-bottom: 30px;
+            width: 60px;
+        }
+        h4 {
+            margin-bottom: 20px;
+            color: #000;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            line-height: 2;
+        }
+        p {
+            margin-bottom: 20px;
+            color: $black;
+            font-size: 14px;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+            line-height: 2;
+        }
+        a {
+            color: $black;
+            font-size: 12px;
+            font-weight: 600;
+            text-decoration: none;
+            text-transform: capitalize;
+            transition: 0.3s;
+        }
+    }
+}

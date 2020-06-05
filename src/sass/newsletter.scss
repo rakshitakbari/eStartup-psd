@@ -1,0 +1,83 @@
+#newsletter{
+    background: transparent url(../images/newsletter-bg.jpg) no-repeat center top fixed;
+    background-size: cover;
+    margin-bottom: 60px;
+    .overlay {
+        background: linear-gradient(rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.2) 95%);
+        height: 100%;
+        width: 100%;
+    }
+    .padd-section {
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+    .form-inline{
+        display: block;
+        text-align: center;
+    }
+    .form-control {
+        background-color: transparent;
+        border: 1px solid #dddddd;
+        border-radius: 0;
+        color: #888;
+        font-size: 11px;
+        font-weight: 600;
+        height: 50px;
+        text-align: center;
+        width: 70%;
+        background: $white;
+    }
+    .btn {
+        background: $theme-color;
+        border: 0;
+        border-radius: 0;
+        height: 50px;
+        width: 30%;
+        transition: 0.3s;
+        margin-top: 20px;
+        border-radius: 50px;
+        color: $white;
+        .fa {
+            padding-right: 10px;
+            font-size: 13px;
+            color: $white;
+        }
+    }
+    .list-unstyled {
+        display: inline-block;
+        margin-top: 40px;
+        margin-bottom: 0;
+        padding-left: 0;
+        list-style: none;
+        letter-spacing: 1px;
+        li{
+            background: $theme-color;
+            border-radius: 50px;
+            float: left;
+            height: 35px;
+            line-height: 35px;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 35px;
+            transition: 0.3s;
+            color: #626262;
+            font-size: 13px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            text-transform: capitalize;
+            a{
+                letter-spacing: 2px;
+                text-decoration: none;
+                line-height: 35px;
+                font-size: 13px;
+                font-weight: 400;
+                color: $white;
+                .fa {
+                    color: $white;
+                    font-size: 13px;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+    }
+}

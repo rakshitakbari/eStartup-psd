@@ -1,0 +1,48 @@
+#about-us{
+    padding: 0 16px 60px;
+    img {
+        max-width: 100%;
+    }
+    .about-content {
+        h2 {
+            color: #252525;
+            font-family: "roboto";
+            font-size: 39px;
+            font-weight: 100;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            text-transform: capitalize;
+            span {
+                font-weight: 700;
+                padding-right: 10px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+        }
+        p {
+            color: #505050;
+            font-size: 14px;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+            line-height: 2;
+            margin-bottom: 20px;
+        }
+        .list-unstyled {
+            padding-left: 0;
+            list-style: none;
+            letter-spacing: 1px;
+            li {
+                line-height: 36px;
+                color: #626262;
+                font-size: 13px;
+                font-weight: 400;
+                letter-spacing: 2px;
+                text-transform: capitalize;
+                .fas {
+                    padding-right: 20px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

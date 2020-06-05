@@ -1,0 +1,76 @@
+#team{
+    padding: 0 0 60px;
+    .team-block{
+        box-shadow: 0 0 35px rgba(0,0,0,0.1);
+        height: 254px;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        &:hover{
+            .team-content {
+                bottom: 0px;
+                transition: all 0.5s ease-in-out 0s;
+            }
+        }
+        img {
+            width: 100%;
+        }
+        .team-content {
+            background: $white none repeat scroll 0 0;
+            bottom: 0;
+            box-shadow: 0 0 4px 0 rgba(0,0,0,0.2), 0 0 0 0 rgba(0,0,0,0.19);
+            bottom: -147px;
+            padding: 20px 0;
+            position: absolute;
+            width: 100%;
+            transition: all 0.5s ease-in-out 0s;
+            ul {
+                display: block;
+                width: 100%;
+                padding-left: 0;
+                list-style: none;
+                letter-spacing: 1px;
+                margin-bottom: 10px;
+                li {
+                    display: inline-block;
+                    color: #626262;
+                    font-size: 13px;
+                    font-weight: 400;
+                    letter-spacing: 2px;
+                    line-height: 30px;
+                    text-transform: capitalize;
+                    a {
+                        color: #626262;
+                        letter-spacing: 2px;
+                        text-decoration: none;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        .fa {
+                            float: left;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                            transition: 0.3s;
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+            span {
+                letter-spacing: 1px;
+                color: #333;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1.5;
+            }
+            h4 {
+                color: #000;
+                font-size: 13px;
+                font-weight: 700;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                line-height: 2;
+                margin-top: 10px;
+            }
+        }
+    }
+}
